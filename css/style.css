@@ -7,6 +7,9 @@
 body{
     background-color: blueviolet !important;
 }
+.color_white{
+    color: white !important;
+}
 .container_pers{
     position: absolute;
     top: 50%;
@@ -49,4 +52,30 @@ body{
     color: purple;
     border-radius: 10px;
     font-family: Comfortaa;
+}
+
+
+/* Página de Cadastro */
+
+
+.container_pers_cadastro{
+    width: 90%;
+    margin: 0 auto !important;
+}
+
+form{
+    font-family: Comfortaa!important;
+}
+.form-control input{
+    padding: 0 20px!important;
+}
+.camposCadastro{
+    padding: 0 10px!important;
+}
+.labelsCadastro{
+    padding-top: 5px!important;
+    font-size: 15px;
+}
+.h1Cadastro{
+    padding: 10px 0!important;
 }

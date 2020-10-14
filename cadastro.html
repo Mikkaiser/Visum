@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro - Visum</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+        crossorigin="anonymous">
+
+        <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+
+    </head>
+    <body>
+        <div class="container_pers_cadastro">
+            <h1 class="color_white h1Cadastro">Cadastro</h1>
+            <form action="guarda_info.php" method="post">
+                <div class="form-group">
+                    <label for="exampleInputEmail1" class="color_white labelsCadastro">Nome</label>
+                    <input type="text" class="form-control camposCadastro" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu nome">
+
+                    <label for="exampleInputEmail1" class="color_white labelsCadastro">Sobrenome</label>
+                    <input type="text" class="form-control camposCadastro" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu sobrenome">
+
+                    <label for="exampleInputEmail1" class="color_white labelsCadastro">Endereço de Email</label>
+                    <input type="email" class="form-control camposCadastro" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email usado frequentemente">
+                    <small id="emailHelp" class="form-text color_white" style="font-size: 10px; padding-top: 5px!important;">Nós nunca compartilharemos suas informações com ninguém</small>
+
+                    <label for="exampleInputEmail1" class="color_white labelsCadastro">Senha</label>
+                    <input type="password" class="form-control camposCadastro" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Sua senha">
+
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1" class="color_white labelsCadastro">Estado</label>
+                        <select class="form-control camposCadastro" id="exampleFormControlSelect1" id="estado" name="estado">
+                            <option value="vazio">Selecione seu Estado</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="EX">Estrangeiro</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1" class="color_white labelsCadastro">Cidade</label>
+                        <select class="form-control camposCadastro" id="exampleFormControlSelect1" id="cidade" name="cidade">
+                            <option value="vazio">Selecione sua cidade</option>
+                            <option value="mac">Maceió</option>
+                            <option value="pmi">Palmeira dos Índios</option>
+                            <option value="mch">Marechal Deodoro</option>
+                            <option value="pai">Paipureira</option>
+                            <option value="ara">Arapiraca</option>
+                        </select>
+                    </div>
+
+                    <label for="exampleInputEmail1" class="color_white labelsCadastro">Senha</label>
+                    <input type="password" class="form-control camposCadastro" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Sua senha">
+                    
+                    
+                </div>
+            </form>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
+        crossorigin="anonymous"></script>
+
+    </body>
+</html>

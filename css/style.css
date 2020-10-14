@@ -1,0 +1,52 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body{
+    background-color: blueviolet !important;
+}
+.container_pers{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.indexImg{
+    width: 400px;
+    display: block;
+}
+.loadingSimbol{
+    position: absolute !important;
+    left: 45% !important;
+}
+.loadingSimbol span{
+    color: white !important;
+    font-family: Comfortaa !important;
+}
+.mensagemInicial{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 90%;
+    text-align: center;
+    line-height: 40px;
+}
+.btnColor{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    background: white;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    color: purple;
+    border-radius: 10px;
+    font-family: Comfortaa;
+}

@@ -63,11 +63,11 @@ body{
     margin: 0 auto !important;
 }
 
-form{
+.form_cadastro{
     font-family: Comfortaa!important;
 }
-.form-control input{
-    padding: 0 20px!important;
+.labelsCadastro{
+    margin-top: 10px!important;
 }
 .camposCadastro{
     padding: 0 10px!important;
